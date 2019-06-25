@@ -1,0 +1,220 @@
+body {
+  background-color: #21232E;
+  max-width: 1920px;
+  margin: 0 auto; }
+
+.header {
+  width: 100%;
+  background-image: url(../img/m-h-night.jpg);
+  background-size: 100% 901px;
+  height: 901px;
+  border-bottom-right-radius: 661px 420px;
+  z-index: -100; }
+
+.header-wrap {
+  display: block;
+  width: 815px;
+  margin-left: 192px;
+  padding-top: 15px; }
+
+.landing-logo, .footer-logo {
+  display: flex;
+  justify-content: space-between;
+  width: 170px;
+  height: 50px; }
+  .landing-logo img, .footer-logo img {
+    display: block;
+    width: 54px;
+    height: 54px;
+    padding-top: 27px; }
+  .landing-logo p, .footer-logo p {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Hind', sans-serif;
+    line-height: 20px;
+    color: #FEFEFE;
+    line-height: 24px; }
+  .landing-logo span, .footer-logo span {
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center; }
+
+.header_heading {
+  display: inline-block;
+  position: relative;
+  color: #FEFEFE;
+  font-size: 90px;
+  line-height: 88px;
+  font-weight: bold;
+  font-family: 'Source Sans Pro', sans-serif;
+  z-index: 10; }
+  .header_heading:after {
+    bottom: 30px;
+    width: 380px;
+    height: 31px;
+    content: "";
+    display: block;
+    position: relative;
+    background-color: #FF4E33;
+    z-index: -1; }
+
+.header_text {
+  display: block;
+  width: 668px;
+  color: #FEFEFE;
+  font-size: 19px;
+  font-family: 'Hind', sans-serif; }
+
+.header_button, .section_banner_button {
+  display: block;
+  position: relative;
+  border: none;
+  border-radius: 4px;
+  background-color: #E3AC00;
+  color: #FEFEFE;
+  font-size: 18px;
+  font-family: 'Fresca', sans-serif;
+  width: 178px;
+  height: 61px;
+  margin-top: 87px;
+  margin-bottom: 220px; }
+
+.section {
+  display: block;
+  text-align: center;
+  width: 1920px; }
+
+.section_text {
+  display: inline-block;
+  position: relative;
+  font-family: 'Hind', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: #FEFEFE;
+  z-index: 10; }
+  .section_text:after {
+    left: 276px;
+    bottom: 38px;
+    width: 232px;
+    height: 16px;
+    content: " ";
+    display: block;
+    position: relative;
+    background-color: #FF4E33;
+    z-index: -1; }
+
+.section_card_wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 192px;
+  margin-right: 192px; }
+
+.section_card {
+  background-color: #3B3F50;
+  width: 497px;
+  height: 576px;
+  text-align: center; }
+
+.section_card_img {
+  display: block;
+  width: 446px;
+  height: 297px;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 0px; }
+
+.section_card_heading {
+  display: inline-block;
+  position: relative;
+  margin: 5px auto;
+  color: #FEFEFE;
+  font-family: 'Hind', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  z-index: 10; }
+  .section_card_heading .section_card_underline {
+    display: block;
+    position: relative;
+    bottom: 30px;
+    background-color: #FF4E33;
+    width: inherit;
+    height: 16px;
+    z-index: -1; }
+
+.section_card_text {
+  display: block;
+  color: #BFBFB3;
+  font-family: 'Hind', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 0px; }
+
+.section_banner {
+  display: block;
+  position: relative;
+  border-radius: 6px;
+  top: 95px;
+  left: 353px;
+  z-index: 100;
+  width: 1200px;
+  height: 184px;
+  background: linear-gradient(to right, #E3AC00, #943050); }
+
+.section_banner_text_wrap {
+  text-align: left;
+  padding-left: 155px;
+  padding-top: 34px; }
+
+.section_banner_heading {
+  display: inline-block;
+  position: relative;
+  color: #FEFEFE;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+  z-index: 10; }
+  .section_banner_heading:after {
+    left: 141px;
+    bottom: 19px;
+    width: 75px;
+    height: 16px;
+    content: " ";
+    display: block;
+    position: relative;
+    background-color: #FF4E33;
+    z-index: -1; }
+
+.section_banner_text {
+  color: #BFBFB3;
+  font-family: 'Hind', sans-serif;
+  font-size: 19px; }
+
+.section_banner_button {
+  bottom: 158px;
+  left: 864px; }
+
+.footer {
+  width: 100%;
+  height: 303px;
+  background-color: #3B3F50; }
+
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 190px;
+  padding-top: 140px; }
+
+.footer_text {
+  display: block;
+  width: 375px;
+  color: #BFBFB3;
+  font-family: 'Hind', sans-serif;
+  font-size: 17px; }
+
+.footer-cr {
+  display: block;
+  padding-top: 43px;
+  color: #BFBFB3; }
